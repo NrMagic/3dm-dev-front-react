@@ -1,0 +1,5 @@
+let nome = "Wallas"
+let idade = "34 anos"
+const soma = 7 + 3
+
+console.log(`Òla meu nome é ${nome} tenho ${idade}  /n o resultado de 7 + 3 é: ${soma}`)
