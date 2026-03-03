@@ -1,6 +1,6 @@
 // Declarando variáveis
-let nome = "Lucas";
-let idade = 25;
+let nome = "Wallas";
+let idade = 34;
 let cidade = "São Paulo";
 
 // Dois números

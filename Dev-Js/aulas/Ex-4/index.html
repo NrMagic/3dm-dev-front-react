@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificação de Idade</title>
+</head>
+<body>
+    <script>
+        // Pergunta a idade ao usuário
+        let idade = parseInt(prompt("Digite sua idade:"));
+
+        // Verifica a faixa etária
+        if (idade <= 12) {
+            alert("Você é Criança.");
+        } else if (idade <= 17) {
+            alert("Você é Adolescente.");
+        } else if (idade <= 59) {
+            alert("Você é Adulto.");
+        } else {
+            alert("Você é Idoso.");
+        }
+
+        // Programa extra - Nota
+        let nota = parseFloat(prompt("Digite sua nota:"));
+
+        if (nota >= 9) {
+            alert("Excelente");
+        } else if (nota >= 7) {
+            alert("Bom");
+        } else if (nota >= 5) {
+            alert("Regular");
+        } else {
+            alert("Reprovado");
+        }
+    </script>
+</body>
+</html>
