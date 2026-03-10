@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="py">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-5</title>
+</head>
+<body>
+    <h2>Resultados</h2>
+<div id="saida"></div>
+
+<script>
+
+let saida = document.getElementById("saida");
+
+// FOR → números de 1 a 10
+saida.innerHTML += "<b>Números de 1 a 10:</b><br>";
+for(let i = 1; i <= 10; i++){
+    saida.innerHTML += i + " ";
+}
+
+// WHILE → pares de 2 a 20
+saida.innerHTML += "<br><br><b>Pares de 2 a 20:</b><br>";
+
+let n = 2;
+
+while(n <= 20){
+    saida.innerHTML += n + " ";
+    n += 2;
+}
+
+// DO WHILE → senha
+let senha;
+
+do{
+    senha = prompt("Digite a senha:");
+}while(senha !== "1234");
+
+alert("Senha correta!");
+
+</script>
+</body>
+</html>
